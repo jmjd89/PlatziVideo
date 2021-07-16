@@ -1,0 +1,111 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #AB88FF;
+    font-family: 'Mulish', sans-serif;
+}
+
+.main-header{
+    background-color: #AB88FF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px 10px 10px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.main-header__img{
+    width: 200px;
+}
+
+.main-nav{
+    text-align: right; 
+}
+
+.main-nav__picture:hover ~ ul, ul:hover{
+    display: block;
+}
+
+.main-nav__p{
+    color: white;
+}
+
+.main-nav__p:hover ~ ul, ul:hover{
+    display: block;
+}
+
+.main-nav__menu{
+    display: none;
+}
+
+.main-nav__menu--cuenta{
+    list-style: none;
+}
+
+.main-nav__menu--cuenta a{
+    text-decoration: none;
+    color:white;
+}
+
+.main-nav__menu--cuenta a:hover
+{
+    text-decoration: underline;
+}
+
+.main-nav__menu--sesion{
+    list-style: none;
+}
+
+.main-nav__menu--sesion a{
+    text-decoration: none;
+    color:white;
+}
+
+.main-nav__menu--sesion a:hover{
+    text-decoration: underline; 
+}
+
+.main-section{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.section-message p{
+    text-align: center;
+    color: white;
+}
+
+.section-search{
+    margin: 20px auto;
+    width: 80%;
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 18px;
+}
+
+.section-search input{
+    color: white;
+    width: 98%;
+    margin-left: 10px;
+    background-color: #AB88FF;
+    border-width: 0px;
+    font-size: 2.0rem;
+}
+
+.section-search > input::placeholder{
+    color: white;
+}
+
+.section-search > input:focus{
+    outline: none;
+}
